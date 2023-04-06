@@ -47,7 +47,7 @@ import QRBill
 
 ```swift
 let data = QRBill.Data(
-    iban: "TEST12345678",
+    iban: "CH00 1234 5678 9012 3456 7",
     amount: 123.45,
     currency: .chf,
     creditor: .structured(name: "Jöhn Doe", street: "Towñroad", streetNr: "10", zip: "8765", city: "Littletown", countryCode: "CH"),
