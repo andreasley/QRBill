@@ -102,7 +102,7 @@ public struct Data
         data.append(currency.field) // Ccy
 
         // Ultimate Debtor
-        data.append(contentsOf: debtor.fields) // UltmtCdtr
+        data.append(contentsOf: debtor.fields) // UltmtDbtr
 
         // Payment reference
         data.append(contentsOf: reference.fields) // RmtInf
